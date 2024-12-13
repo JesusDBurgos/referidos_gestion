@@ -292,7 +292,7 @@ const AdminDashboard = () => {
               </div>
 
               {/* Modal de Detalles */}
-              <Dialog open={showModal} onOpenChange={setShowModal}>
+              <Dialog open={showModal} style={{ color: '#1f2937' }} onOpenChange={setShowModal}>
                 <DialogContent>
                   <DialogHeader>
                     <DialogTitle style={{ color: '#1f2937' }}>Detalles del Referidor</DialogTitle>

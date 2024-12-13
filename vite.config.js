@@ -6,5 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     chunkSizeWarningLimit: 1000, // en kB
+    outDir: 'dist',
+    assetsDir: 'assets',
   }
 })
